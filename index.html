@@ -1,0 +1,478 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+	<head>
+		<title>Jessica's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Internal Styles for Circular Image -->
+		<style>
+			/* Circular Image Styling */
+			html {
+            scroll-behavior: smooth;
+        }
+			.circular-image {
+				width: 250px; /* Adjust the size as needed */
+				height: 250px;
+				border-radius: 50%; /* Makes the image circular */
+				object-fit: cover; /* Ensures the image covers the entire area without distortion */
+				/*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+				transition: transform 0.3s ease; /* Optional: Adds a smooth hover effect */
+				display: block; /* Ensures the image behaves as a block element */
+				margin: 0 auto 30px auto; /* Centers the image and adds space below */
+			}
+	
+			/* Hover Effect (Optional) */
+			.circular-image:hover {
+				transform: scale(1.05); /* Slightly enlarges the image on hover */
+			}
+	
+			/* Profile Container Styling */
+			.profile-container {
+				width: 250px; /* Should match the image size */
+				height: 250px;
+				border-radius: 50%;
+				overflow: hidden; /* Ensures the image fits within the circular container */
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Matches the image shadow */
+				margin: 0 auto 30px auto; /* Centers the container */
+			}
+			.features a.image:hover img {
+        transform: scale(1.1) ; /* Slightly enlarge the image */
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+		opacity: 0.9; 
+    }
+	/* Greeting Text Styling */
+.greeting-text {
+    position: absolute; /* Position the text absolutely */
+    top: 30%; /* Move the text down (adjust as needed) */
+    left: 30%; /* Move the text towards the right */
+    transform: translate(-50%, -150%); /* Center horizontally and move it above the image */
+    text-align: center; /* Center the text */
+    color: white; /* Adjust to match your theme */
+    font-family: 'Arial', sans-serif;
+}
+
+.greeting-text h2 {
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: normal; /* Make "Hi There!" less bold */
+}
+
+.greeting-text strong {
+    font-weight: bold; /* Make "Jessica James" bold */
+    color: var(--primary-color); /* Match primary accent color */
+}
+
+	
+			
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Jessica's Portfolio</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="#banner">About Me</a></li>
+							<li><a href="#one">Experiences</a></li>
+							<li><a href="#four">Projects</a></li>
+							<li><a href="#Five">Education</a></li>
+							<li><a href="#seven">Technical Blog</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#contact">Contact Me</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
+
+	
+
+				
+
+				<!-- Banner -->
+				
+				
+<section id="banner">
+    <div class="inner">
+
+		
+        <!-- Profile Picture -->
+        <div class="profile-container">
+            <img src="Jessica_Image.jpg" alt="Jessica's Profile Picture" class="circular-image" />
+        </div>
+
+        <!-- About Me Heading -->
+        <h1 style="text-transform: none;">Hi there ! I am</h1><h2 style="text-transform: none;"><strong>Jessica James</strong></h2>
+        <h1 style="text-transform: none;">Data Science and Engineering</h1>
+        <!-- Social Icons -->
+        <div style="margin: 10px 0;">
+            <a href="https://www.linkedin.com/in/jessannajames/" target="_blank" style="margin: 0 10px;">
+                <i class="icon brands fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://github.com/jessica1438" target="_blank" style="margin: 0 10px;">
+                <i class="icon brands fa-github fa-lg"></i>
+            </a>
+            <a href="https://jessica1438.hashnode.dev" target="_blank" style="margin: 0 10px;">
+                <i class="icon solid fa-feather fa-lg"></i>
+            </a>
+        </div>
+
+        <!-- About Me Content -->
+        <p style="text-align: left; text-transform: none;">
+			I am a Data Scientist and Engineer with a proven track record of delivering impactful AI and data-driven solutions. I’ve collaborated with industry leaders like Morgan Stanley - Parametric, GIEOM, and United Business Group, contributing to projects such as RAG-based chatbots, object detection systems, and data integration frameworks. Passionate about data, machine learning, NLP, and intelligent systems, I excel in transforming complex challenges into scalable, innovative solutions. Beyond the code, I’m a traveler always in pursuit of the next great story, a climber driven by the thrill of reaching new heights, a hiker energized by breathtaking views, and a coffee aficionado who believes every cup fuels innovation.        </p>
+    </div>
+</section>
+
+				<!-- Wrapper -->
+
+					<section id="wrapper">
+						<section id="education-title" class="wrapper style2">
+							<div class="inner" style="text-align: left;">
+								<h2 class="major">Experience</h2>
+							</div>
+						</section>
+
+						<!-- One -->
+						
+						<section id="one" class="wrapper spotlight style1">
+							<div class="inner">
+								<a href="https://www.morganstanley.com" target="_blank" class="image">
+									<img src="mo.jpeg" alt="Morgan Stanley - Parametric" />
+								</a>
+								<div class="content" style="text-align: justify;">
+									<h2 class="major">Data Engineer and Management</h2>
+									<ul>
+										<li>
+											Developed a transitional analysis chatbot leveraging Snowflake Cortex AI with Retrieval-Augmented Generation (RAG) using Python, fine-tuning advanced Gen AI models like Mistral and Llama to enhance NLP capabilities and conversational accuracy.										</li>
+										<li>
+											Streamlined data integration at Morgan Stanley by unifying Equity, Fixed Income, Corporate, and IMS account databases, enhancing data quality with enrichment mappers and rigorous checks, and optimizing data flows with AWS S3 and Streamlit dashboards for actionable portfolio insights.										</li>
+										<li>
+											Optimized Snowflake performance by fine-tuning SQL queries, automating ELT pipelines with DBT, and orchestrating workflows using GitLab and AWS Airflow DAGs, ensuring seamless data ingestion from AWS S3 and continuous availability via Snowpipe.
+										</li>
+										
+									</ul>
+								</div>
+							</div>
+						</section>
+						
+
+
+					<!-- Two -->
+					<section id="one" class="wrapper spotlight style1">
+						<div class="inner">
+							<a href="https://www.gieom.com" target="_blank" class="image">
+								<img src="GIEOM_Image.jpeg" alt="GIEOM" />
+							</a>
+							<div class="content" style="text-align: justify;">
+								<h2 class="major">Data Scientist</h2>
+								<ul>
+									<li>
+										Implemented object detection on official documents like passports and driver’s licenses using TensorFlow and OpenCV, achieving a 96% confidence level for robust customer verification, and enhanced accuracy to 99% by developing an ETL pipeline with YOLOv3 for structured database generation.									</li>
+									<li>
+										Leveraged transfer learning with pre-trained models (COCO, ImageNet) and deep learning algorithms (CNNs) for tasks like passport image analysis and face match identification using the LFW dataset, enabling precise feature extraction and face matching.									</li>
+									<li>
+										Developed a full-stack web application using Flask, React, and REST APIs, providing a user-friendly interface for interacting with models, and conducted literature reviews to identify and implement the most suitable algorithms for document analysis.									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</section>
+					
+
+
+						<!-- Three -->
+						<section id="one" class="wrapper spotlight style1">
+							<div class="inner">
+								<a href="https://www.ubgkw.com/" target="_blank" class="image">
+									<img src="UBG_up.jpeg" alt="UBGroup" />
+								</a>
+								<div class="content" style="text-align: justify;">
+									<h2 class="major">Machine Learning Engineer</h2>
+									<ul>
+										<li>
+											Developed and deployed a Dialogflow-based chatbot for a company's social media account, ensuring efficient user query handling, improved response time, and an accurate response rate.          
+										</li>
+										<li>
+											Customized chatbot responses to maintain brand consistency and alignment with social media platforms, enhancing user engagement and contributing to high accuracy in user interactions.                
+										</li>
+										<li>
+											Seamlessly integrated the chatbot with social media platforms, leveraging Dialogflow's NLU capabilities for precise user query interpretation, resulting in accurate responses. 
+										</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Projects</h2>
+									<section class="features">
+										<article>
+											<a  class="image"><img src="t.png" alt="transformer" /></a>
+											<h3 class="major">Advanced Custom Training of GPT-based Machine Translation Transformer</h3>
+											<p class="project-description">
+												Developed a custom transformer model for machine translation and optimized the Helsinki NLP model from Hugging Face on a selected dataset, achieving a 30% improvement in BLEU scores. 
+												Conducted a comparative analysis showcasing the custom model's
+												capabilities against pre-trained transformers for enhanced translation quality</p>
+											<a href="https://github.com/jessica1438/Comparative-Analysis-Custom-Transformer-vs.-Helsinki-Model-for-Machine-Translation" class="special" target="_blank">Learn more</a>
+										</article>
+										<article>
+											<a  class="image"><img src="summazrization.jpg" alt="" /></a>
+											<h3 class="major">Optimizing Dialogue Text Summarization with Pretrained Models</h3>
+											<p >Implemented and evaluated text summarization techniques on a dialogue dataset using pre-trained models (BART, Pegasus, SimpleT5), achieving a 35% improvement in summary coherence and informativeness. Conducted comparative analysis using ROUGE metrics, with Pegasus leading at 92% ROUGE-L, providing actionable insights into model performance for abstractive summarization tasks.</p>
+											<a href="https://github.com/jessica1438/Text-Summarization-using-pretrained-models-such-as-BART-SimpleT5-and-Pegasus" class="special" target="_blank">Learn more</a>
+										</article>
+										<article>
+											<a  class="image"><img src="info_Retrieval.png" alt="" /></a>
+											<h3 class="major">Information Retrieval of YouTube Speech Data</h3>
+											<p >Led an NLP project on extracting insights from YouTube speech data, utilizing SpaCy and Hugging Face Transformers to deliver 95% precision in entity recognition. Built a directed knowledge graph stored in Neo4j, visualizing syntactic dependencies and extracting
+												detailed data on vehicle models, manufacturers, and driving modes for actionable insights.</p>
+											<a href="https://github.com/jessica1438/Information-Retreival-using-Speech-Data-" class="special" target="_blank">Learn more</a>
+										</article>
+										<article>
+											<a  class="image"><img src="healthcare-web-app-development.webp" alt="" /></a>
+											<h3 class="major">Health for all Web Application using R </h3>
+											<p >Deployed an ETL pipeline to clean and structure complex data, providing insights and analysis on metrics like country codes, population, live births, and mortality. Developed custom functions for visualizations, including histograms, line graphs, and radar charts, and built a user interface in RStudio with interactive widgets—such as sliders, selects, and drop-downs—to enable dynamic data exploration and feature creation.</p>
+											<a href="https://github.com/jessica1438/RShiny-Health-Web-Application" class="special" target="_blank">Learn more</a>
+										</article>
+										<article>
+											<a class="image"><img src="hs.png" alt="" /></a>
+											<h3 class="major">Empowering Health Systems: Advancing Healthcare through Online Medical Consultation</h3>
+											<p >Developed a comprehensive online medical consultation system, featuring a robust database architecture to manage appointment scheduling, medical records, and feedback processing. The system integrated virtual consultation rooms for seamless doctor-patient interactions, supported by mechanisms for real-time scheduling, secure communication, and patient feedback. Additionally, implemented a medication ordering module that managed electronic prescriptions, detailed drug information, and real-time order tracking, significantly improving healthcare accessibility by allowing patients to book appointments, receive diagnoses, and order medications online, ensuring a user-friendly and contactless experience.</p>
+											<a href="https://github.com/jessica1438/Data-Management-System---Online-Health-Consultation" class="special" target="_blank">Learn more</a>
+										</article>
+										<article>
+											<a  class="image"><img src="tweets.jpeg" alt="" /></a>
+											<h3 class="major">Decoding Tweets: Unveiling Human vs Machine generation using Text classification  </h3>
+											<p >
+												The project analyzed 30,000 tweets across FIFA World Cup 2022, US Election 2020, and Game of Thrones S8, using Logistic Regression, SVM, Random Forest, and Decision Tree models. Logistic Regression achieved the highest performance, with 76.90% accuracy for FIFA combined features and 80.94% accuracy on the merged dataset. Advanced preprocessing techniques such as tokenization, lemmatization, and BERT-based personality analysis revealed that user-generated tweets had greater variability and emotional depth, while machine-generated tweets were more uniform, achieving up to 99.98% accuracy for Game of Thrones clean tweets.</p>
+											<a href="https://github.com/jessica1438/Machine-Generated-Vs-Human-Generated-Text-classification-Model" class="special" target="_blank">Learn more</a>
+										</article>
+									</section>
+									
+								</div>
+							</section>
+
+				            <section id="education-title" class="wrapper style2">
+								<div class="inner" style="text-align: left;">
+									<h2 class="major">Education</h2>
+								</div>
+							</section>
+
+		<!-- Five -->
+		<section id="Five" class="wrapper spotlight style1">
+			<div class="inner">
+				<a href="https://www.northeastern.edu/" class="image" target="_blank"><img src="nou.jpg" alt="Morgan Stanley - Parametric" /></a>
+				<div class="content" style="text-align: Left;">
+					<h2 class="major">Northeastern University Seattle (2023-2025) Master of Science in Data Analytic's Engineering      cgpa: 3.896/4 </h2>
+					<ul style="text-align: justify;">
+						<li><strong>Courses Taken:</strong> Generative AI, Natural Language Processing, Data Mining, Machine Learning, Data Analytics, Information Retrieval, Database Design, Computation and Visualization using R.</li>
+						<li><strong>Administrative and Event Assistant:</strong> 
+							
+								Coordinated with leadership to organize and execute impactful events such as Hackathons, MUNSOCs, Women in Tech initiatives, and App Connects, fostering an inclusive campus community while managing administrative tasks to ensure seamless operations and effective team support.
+							
+						</li>
+						<li style="text-align: left;"> <strong>Initiatives:</strong> 
+							<ul>
+								<li>AI and NLP: Built custom transformer models for machine translation and text summarization, achieving high BLEU and ROUGE scores with advanced pretrained models like Pegasus and BART.</li>
+								<li>Healthcare Tech: Developed an online medical consultation system enabling appointment scheduling, medical records, and e-prescriptions.</li>
+								<li>Speech Analytics: Extracted insights from YouTube speech data using SpaCy and Neo4j, creating knowledge graphs and syntactic analyses.</li>
+								<li>Data Visualization: Designed an RStudio app for global mortality data with interactive charts and regression-based predictions.</li>
+							</ul>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</section>
+
+		<!-- Six -->
+        <section id="Six" class="wrapper spotlight style1">
+			<div class="inner">
+				<a href="https://vit.ac.in/" class="image"  target="_blank"><img src="vit.jpg" alt="Morgan Stanley - Parametric" /></a>
+				<div class="content" style="text-align: left;">
+					<h2 class="major">Vellore Institute of Technology (2018-2022) Bachelor of Technology in Electronics and communication Engineering cgpa: 8.46/10</h2>
+					<ul style="text-align: justify;">
+						<li><strong>Courses Taken:</strong>Machine Learning, Deep learning, Internet of Things (IOT), Probability and Random Processes, Statistics for Engineers, Artificial Intelligence, Data Structures and algorithms, Computer Organization and Architecture and Applied Linear Algebra</li>
+					<li><strong>Extracurricular</strong> 
+						<ul><li>Toastmaster at Toastmasters International Club (TMI)
+							, Achieved Level 2 Pathways in Speaking</li>
+							<li>Volunteer at Make a Difference India</li></ul>
+					 
+					</ul>
+					
+				</div>
+			</div>
+		</section>
+				
+		<!-- Seven -->
+		<section id="seven" class="wrapper alt style1">
+			<div class="inner">
+				<h2 class="major">Technical Blogs</h2>
+				<section class="features">
+					<article>
+						<a href="https://jessica1438.hashnode.dev/from-dendrograms-to-clusters-unpacking-the-benefits-of-hierarchical-clustering-and-k-means" class="image" target="_blank">
+							<img src="dendrogram.avif" alt="transformer" />
+						</a>
+						<a href="https://jessica1438.hashnode.dev/from-dendrograms-to-clusters-unpacking-the-benefits-of-hierarchical-clustering-and-k-means" target="_blank">
+							<h3 class="major">From Dendrograms to Clusters: Unpacking the Benefits of Hierarchical Clustering and K-Means</h3>
+						</a>
+					</article>
+					<article>
+						<a href="https://jessica1438.hashnode.dev/from-voice-to-insight-the-journey-of-speech-data-retrieval-using-nlp-technology" class="image" target="_blank">
+							<img src="voice.avif" alt="transformer" />
+						</a>
+						<a href="https://jessica1438.hashnode.dev/from-voice-to-insight-the-journey-of-speech-data-retrieval-using-nlp-technology" target="_blank">
+							<h3 class="major">From Voice to Insight: The Journey of Speech Data Retrieval using NLP technology</h3>
+						</a>
+					</article>
+					<article>
+						<a href="https://jessica1438.hashnode.dev/a-triad-of-text-analysis-count-vectorizer-tf-idf-and-word2vec-explained" class="image" target="_blank">
+							<img src="traid.avif" alt="transformer" />
+						</a>
+						<a href="https://jessica1438.hashnode.dev/a-triad-of-text-analysis-count-vectorizer-tf-idf-and-word2vec-explained" target="_blank">
+							<h3 class="major">A Triad of Text Analysis: Count Vectorizer, TF-IDF, and Word2Vec Explained</h3>
+						</a>
+					</article>
+					<article>
+						<a href="https://jessica1438.hashnode.dev/openai-clip-revolutionizing-visual-understanding-through-cross-modal-ai" class="image" target="_blank">
+							<img src="openai.avif" alt="transformer" />
+						</a>
+						<a href="https://jessica1438.hashnode.dev/openai-clip-revolutionizing-visual-understanding-through-cross-modal-ai" target="_blank">
+							<h3 class="major">OpenAI CLIP: Revolutionizing Visual Understanding Through Cross-Modal AI</h3>
+						</a>
+					</article>
+					<article>
+						<a href="https://jessica1438.hashnode.dev/unlocking-the-future-with-arimayour-key-to-accurate-predictions-and-better-decision-making" class="image" target="_blank">
+							<img src="unloacking.avif" alt="transformer" />
+						</a>
+						<a href="https://jessica1438.hashnode.dev/unlocking-the-future-with-arimayour-key-to-accurate-predictions-and-better-decision-making" target="_blank">
+							<h3 class="major">Unlocking the Future with ARIMA:Your Key to Accurate Predictions and Better Decision-Making</h3>
+						</a>
+					</article>
+					<article>
+						<a href="https://jessica1438.hashnode.dev/rshiny-for-data-visualization" class="image" target="_blank">
+							<img src="r.avif" alt="transformer" />
+						</a>
+						<a href="https://jessica1438.hashnode.dev/rshiny-for-data-visualization" target="_blank">
+							<h3 class="major">Empower Your Data with R Shiny: A Comprehensive Guide to Installing and Setting up the Web Application Framework for Data Visualization" </h3>
+						</a>
+					</article>
+				</section>
+				
+			</div>
+		</section>
+
+		
+
+		<section id="skills" class="wrapper alt style1">
+			<div class="inner" style="text-align: center;">
+				<h2 class="major">Skills</h2>
+				<div class="skills-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+		
+					<!-- Languages -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" style="width: 60px; height: 60px;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="NoSQL (MongoDB)" style="width: 60px; height: 60px;" />
+
+<!-- Tools -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" style="width: 60px; height: 60px;" />
+<img src="https://www.tableau.com/sites/default/files/2021-05/tableau_rgb_500x104.png" alt="Tableau" style="width: 60px; height: 60px;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" style="width: 60px; height: 60px;" />
+
+<!-- Libraries -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" style="width: 60px; height: 60px;" />
+
+<!-- Competencies -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="ML Ops" style="width: 60px; height: 60px;" />
+
+					
+				</div>
+			</div>
+		</section>
+		
+					
+
+				<!-- Footer -->
+				<section id="contact" class="wrapper alt style1">
+					<div class="inner" style="text-align: center;">
+						<!-- Get in Touch Title -->
+						<h2 class="major">Get in touch</h2>
+						
+						<!-- Description -->
+						<p>Whether you have a question, want to collaborate, or simply chat over a coffee, my inbox is always open. Please feel free to get in touch !</p>
+						
+						<!-- Email -->
+						<p>
+							<i class="icon solid fa-envelope"></i>
+							<a href="mailto:jessannajames@gmail.com">jessannajames@gmail.com</a>
+						</p>
+						
+						<!-- Social Icons -->
+						<div style="margin: 20px 0;">
+							<a href="https://www.linkedin.com/in/jessannajames/" target="_blank" style="margin: 0 10px;">
+								<i class="icon brands fa-linkedin fa-2x"></i>
+							</a>
+							<a href="https://github.com/jessica1438" target="_blank" style="margin: 0 10px;">
+								<i class="icon brands fa-github fa-2x"></i>
+							</a>
+							<a href="https://jessica1438.hashnode.dev/" target="_blank" style="margin: 0 10px;">
+								<i class="icon solid fa-feather fa-2x"></i>
+							</a>
+						</div>
+						
+						<!-- Footer Note -->
+						<p>Made with <i class="icon solid fa-heart" style="color: red;"></i> by Jess</p>
+					</div>
+				</section>
+				
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
